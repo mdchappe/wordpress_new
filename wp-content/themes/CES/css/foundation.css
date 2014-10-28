@@ -3,7 +3,7 @@
 /* CSS Document */
 
 @font-face {
-    font-family: '../fonts/swiss_721light';
+    font-family: 'swiss_721light';
     src: url('../fonts/swiss721bt-light.eot');
     src: url('../fonts/swiss721bt-light.eot?#iefix') format('embedded-opentype'),
          url('../fonts/swiss721bt-light.woff') format('woff'),
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family: '../fonts/swiss_721black';
+    font-family: 'swiss_721black';
     src: url('../fonts/swiss721bt-black.eot');
     src: url('../fonts/swiss721bt-black.eot?#iefix') format('embedded-opentype'),
          url('../fonts/swiss721bt-black.woff') format('woff'),
@@ -27,7 +27,7 @@
 }
 
 @font-face {
-    font-family: '../fonts/swiss_721italic';
+    font-family: 'swiss_721italic';
     src: url('../fonts/swiss721bt-italic.eot');
     src: url('../fonts/swiss721bt-italic.eot?#iefix') format('embedded-opentype'),
          url('../fonts/swiss721bt-italic.woff') format('woff'),
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-    font-family: '../fonts/swiss_721bold_condensed';
+    font-family: 'swiss_721bold_condensed';
     src: url('../fonts/swiss721bt-boldcondensed.eot');
     src: url('../fonts/swiss721bt-boldcondensed.eot?#iefix') format('embedded-opentype'),
          url('../fonts/swiss721bt-boldcondensed.woff') format('woff'),
@@ -51,7 +51,7 @@
 }
 
 @font-face {
-    font-family: '.../fonts/swiss_721heavy';
+    font-family: 'swiss_721heavy';
     src: url('../fonts/swiss721bt-heavy.eot');
     src: url('../fonts/swiss721bt-heavy.eot?#iefix') format('embedded-opentype'),
          url('../fonts/swiss721bt-heavy.woff') format('woff'),
@@ -63,7 +63,7 @@
 }
 
 @font-face {
-    font-family: '.../fonts/swiss_721roman';
+    font-family: 'swiss_721roman';
     src: url('../fonts/swiss_721.eot');
     src: url('../fonts/swiss_721.eot?#iefix') format('embedded-opentype'),
          url('../fonts/swiss_721.woff') format('woff'),
@@ -75,7 +75,7 @@
 }
 
 @font-face {
-    font-family: '../fonts/swiss_721medium';
+    font-family: 'swiss_721medium';
     src: url('../fonts/swiss_721_medium.eot');
     src: url('../fonts/swiss_721_medium.eot?#iefix') format('embedded-opentype'),
          url('../fonts/swiss_721_medium.woff') format('woff'),
@@ -87,7 +87,7 @@
 }
 
 @font-face {
-    font-family: '../fonts/swiss_721light_italic';
+    font-family: 'swiss_721light_italic';
     src: url('../fonts/swiss_721_light_italic.eot');
     src: url('../fonts/swiss_721_light_italic.eot?#iefix') format('embedded-opentype'),
          url('../fonts/swiss_721_light_italic.woff') format('woff'),
@@ -98,20 +98,9 @@
 
 }
 
-@font-face {
-    font-family: '../fonts/swiss_721light';
-    src: url('../fonts/swiss_721_light.eot');
-    src: url('../fonts/swiss_721_light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/swiss_721_light.woff') format('woff'),
-         url('../fonts/swiss_721_light.ttf') format('truetype'),
-         url('../fonts/swiss_721_light.svg#swiss_721light') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 @font-face {
-    font-family: '.../fonts/swiss_721bold';
+    font-family: 'swiss_721bold';
     src: url('../fonts/swiss_721_bold.eot');
     src: url('../fonts/swiss_721_bold.eot?#iefix') format('embedded-opentype'),
          url('../fonts/swiss_721_bold.woff') format('woff'),
@@ -122,17 +111,6 @@
 
 }
 
-@font-face {
-    font-family: '../fonts/swiss_721roman';
-    src: url('../fonts/swiss721bt-roman.eot');
-    src: url('../fonts/swiss721bt-roman.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/swiss721bt-roman.woff') format('woff'),
-         url('../fonts/swiss721bt-roman.ttf') format('truetype'),
-         url('../fonts/swiss721bt-roman.svg#swiss_721roman') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 meta.foundation-version {
   font-family: "/5.3.0/"; }
@@ -1546,7 +1524,7 @@ meta.foundation-mq-topbar {
       color: white;  
       padding: 12px 0 12px 0;
       padding-left: 20px;
-      font-family: "../fonts/swiss_721roman";
+      font-family: "swiss_721roman";
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
@@ -1916,6 +1894,8 @@ meta.foundation-mq-topbar {
 }
 
 
+
+
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 54em) { 
@@ -1995,7 +1975,7 @@ meta.foundation-mq-topbar {
     color: white;
     padding: 12px 0 12px 0;
     padding-left: 20px;
-    font-family: "../fonts/swiss_721roman";
+    font-family: "swiss_721roman";
     font-size: 0.7125rem;
     font-weight: normal;
     text-transform: none;
@@ -3143,7 +3123,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "../fonts/swiss_721roman";
+  font-family: "swiss_721roman";
   font-weight: normal;
   font-style: normal;
   color: #333333;

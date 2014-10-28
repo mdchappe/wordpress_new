@@ -8,11 +8,122 @@
  Version:        1.0.0
 */
  
+
 @import url("../reddle/style.css");
 @import url("css/foundation.css");
- 
+
+
+
+
+
+
 /* =Theme customization starts here
 ------------------------------------------------------- */
 
 /* CUSTOM CES BLOG STYLES */
+
+.entry-title,
+.top-bar-section li a {
+	font-family: "swiss_721roman";
+}
+
+#masthead a:hover{
+	text-decoration: none;
+}
+
+p {
+	font-size: .9em;
+}
+
+#accountlogin a {
+	padding: 0px;
+	font-family: 'swiss_721roman';
+	font-size:14px;
+	color: #FFF;
+	background: none;
+	background-color: none;
+}
+
+#accountlogin a:hover {
+	color: #C60C30;
+	
+}
+
+ul.right li a{
+	font-size: 80%;
+}
+
+
+
+#sitetitle{
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+/* CUSTOM MEDIA QUERIES */
+
+
+@media only screen and (min-width: 0em)  {
+
+
+.top-bar {
+	height: 55px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 40.063em) {
+
+#sitetitle {
+	display: none !important;
+}
+
+#masthead img {
+	width: 75%;
+}
+
+.top-bar {
+	height: 180px;
+}
+
+
+
+.large-10.columns{
+	position: absolute;
+	right: 0px;
+	width: 100%;
+	
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 61.314em) {
+
+
+.top-bar {
+	height: 140px;
+}
+
+
+
+}
+
+@media only screen and (min-width: 82.813em){
+
+#masthead img {
+	width: 100%;
+}
+
+
+}
 
